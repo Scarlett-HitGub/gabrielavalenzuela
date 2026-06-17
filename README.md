@@ -3,7 +3,7 @@
 <br>
 <br>
 
-# Servicio de Rescate Médico y Asistencia Médica Integral
+# Ventas de Servicio de Rescate Médico y Asistencia Médica Integral
 
 __Servicio 24/7__
 
@@ -13,7 +13,7 @@ __Servicio 24/7__
 # Beneficios
 __Rescate Médico Chile__
 ---
-Si presenta una Emergencia o Urgencia Médica le enviaremos un móvil al lugar del incidente, con un médico, un enfermero(a) y un conductor paramédico. En caso de riesgo vital, una enfermera lo apoyará telefónicamente dándole las instrucciones mientras llega el móvil. Nuestros pacientes son estabilizados en el lugar del incidente. Si es necesario, será trasladado a un centro asistencial y el equipo médico lo acompañará y asistirá hasta ser internado. 
+En una Emergencia o Urgencia Médica le enviaremos un móvil al lugar del incidente, con un médico, un enfermero(a) y un conductor paramédico. En caso de riesgo vital, una enfermera lo apoyará telefónicamente dándole las instrucciones mientras llega el móvil. Nuestros pacientes son estabilizados en el lugar del incidente. Si es necesario, será trasladado a un centro asistencial y el equipo médico lo acompañará y asistirá hasta ser internado. 
 
 # Servicios
 
@@ -65,6 +65,9 @@ comunas donde el servicio de rescate ofrece cobertura
 __Región | Comuna__
 ---
 Metropolitana | Independencia, Macul, Lar Reina, Cerrillos, La Florida, Vitacura 
+Quinta Región | Viña, Reñaca, Concon, valparaíso
+Octava Región | Concepción, Talcahuano, Chihuayante, San Pedro
+
 <br>
 <br>
 
@@ -77,3 +80,4 @@ Para situaciones de salud menor, puede obtener la atención de un médico desde 
 __Contacto__
 --- 
 Whatsapp +56 9 8596 6327
+E-mail: contacto@clinicasmoviles.cl
