@@ -1,0 +1,16 @@
+/* ============================================================
+   style.static/css — Punto de entrada principal
+   Importa todos los archivos static/css por sección
+   ============================================================ */
+
+@import url("base.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("sections.css");
+@import url("servicios.css");
+@import url("planes.css");
+@import url("cobertura.css");
+@import url("solicitud.css");
+@import url("footer.css");
+@import url("responsive.css");
+ 

@@ -1,0 +1,51 @@
+/* ============================================================
+   SOLICITUD — Formulario de contacto / contratación
+   ============================================================ */
+
+.request-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 680px);
+  gap: 24px;
+  align-items: start;
+}
+
+.request-form {
+  display: grid;
+  gap: 14px;
+  min-height: 100%;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 26px var(--card-shadow);
+}
+
+.request-form label {
+  display: grid;
+  gap: 7px;
+  color: var(--muted-ink);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.request-form input,
+.request-form select,
+.request-form textarea {
+  width: 100%;
+  padding: 12px 13px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  font: inherit;
+  background: var(--surface);
+}
+
+.request-form textarea {
+  resize: vertical;
+}
+
+.request-form button {
+  width: fit-content;
+  border: 0;
+  cursor: pointer;
+}

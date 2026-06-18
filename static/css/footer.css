@@ -1,0 +1,18 @@
+/* ============================================================
+   FOOTER — Pie de página con contacto
+   ============================================================ */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px clamp(20px, 5vw, 72px);
+  color: var(--on-dark);
+  background: var(--ink);
+}
+
+.footer p {
+  margin-bottom: 0;
+  color: var(--footer-text);
+}

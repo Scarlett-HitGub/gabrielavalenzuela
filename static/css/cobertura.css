@@ -1,0 +1,47 @@
+/* ============================================================
+   COBERTURA — Mapa de regiones con fondo de imagen
+   ============================================================ */
+
+#cobertura {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(rgba(239, 248, 239, 0.301), rgba(239, 248, 239, 0.048)),
+    url("../assets/rescate.png") center/cover no-repeat;
+}
+
+#cobertura > * {
+  position: relative;
+  z-index: 1;
+}
+
+.coverage-list {
+  display: grid;
+  gap: 18px;
+  max-width: 50%;
+}
+
+.coverage-box {
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 26px var(--card-shadow);
+}
+
+.coverage-header {
+  display: block;
+  padding: 18px 20px;
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.coverage-content p {
+  margin: 0;
+  padding: 0 20px 20px;
+}
+
+.coverage-box p {
+  color: var(--muted-ink);
+}

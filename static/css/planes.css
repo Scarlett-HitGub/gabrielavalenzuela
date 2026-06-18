@@ -1,0 +1,99 @@
+/* ============================================================
+   PLANES — Tarjetas de planes con imagen de fondo
+   ============================================================ */
+
+.plan-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 18px;
+  max-width: 1120px;
+  align-items: stretch;
+}
+
+.plan-option {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 360px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-top: 0;
+  border-bottom: 6px solid var(--teal);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, var(--plan-start), var(--plan-end)),
+    var(--surface);
+  box-shadow: 0 10px 26px var(--card-shadow);
+  isolation: isolate;
+}
+
+.plan-option.highlighted {
+  border-bottom-color: var(--blue);
+  box-shadow: var(--shadow);
+}
+
+/* Capa blanca semitransparente sobre la imagen */
+.plan-option::after {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  content: "";
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.84),
+    rgba(255, 255, 255, 0.7)
+  );
+}
+
+.plan-header {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 20px;
+  padding: 28px;
+}
+
+.plan-header span {
+  max-width: 14ch;
+  font-size: clamp(1.45rem, 2.4vw, 2.15rem);
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.plan-header strong {
+  color: var(--blue);
+  font-size: 1.15rem;
+}
+
+.plan-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: var(--plan-image-opacity);
+  object-fit: cover;
+}
+
+.plan-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 18px;
+  padding: 0 28px 28px;
+}
+
+.plan-content p {
+  margin: 0;
+  color: var(--muted-ink);
+}
+
+.plan-option a {
+  display: inline-flex;
+  margin: 0;
+  color: var(--blue);
+  font-weight: 800;
+}

@@ -1,0 +1,50 @@
+/* ============================================================
+   SERVICIOS — Acordeón de servicios con fondo de imagen
+   ============================================================ */
+
+#servicios {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(rgba(239, 248, 239, 0.301), rgba(239, 248, 239, 0.048)),
+    url("../assets/monitor.png") center/cover no-repeat;
+}
+
+#servicios > * {
+  position: relative;
+  z-index: 1;
+}
+
+.info-accordion {
+  display: grid;
+  gap: 18px;
+  max-width: 920px;
+}
+
+.info-item {
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 26px var(--card-shadow);
+}
+
+.info-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 20px;
+  font-weight: 800;
+}
+
+.info-item strong {
+  color: var(--blue);
+  font-size: 0.95rem;
+}
+
+.info-content p {
+  margin: 0;
+  padding: 0 20px 20px;
+}
