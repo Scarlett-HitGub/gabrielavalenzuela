@@ -3,6 +3,10 @@
    ============================================================ */
 
 :root {
+  /* Tamaño de la imagen dentro del box */
+  --coverage-img-height: 160px;
+  --coverage-img-fit: contain;      /* cover | contain */
+  --coverage-img-position: center;
   --ink: #000000;
   --overimage-ink: #ffffff;
   --muted-ink: #1c221c;

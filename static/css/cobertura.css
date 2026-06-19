@@ -6,7 +6,10 @@
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(rgba(239, 248, 239, 0.301), rgba(239, 248, 239, 0.048)),
+    linear-gradient(
+      rgba(239, 248, 239, 0.301),
+      rgba(239, 248, 239, 0.048)
+    ),
     url("../assets/rescate.png") center/cover no-repeat;
 }
 
@@ -15,33 +18,125 @@
   z-index: 1;
 }
 
+/* ============================================================
+   Layout
+   ============================================================ */
+
 .coverage-list {
   display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 18px;
-  max-width: 50%;
+  width: 100%;
+}
+
+/* ============================================================
+   Cards
+   ============================================================ */
+
+.coverage-list {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .coverage-box {
-  padding: 0;
-  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
   box-shadow: 0 10px 26px var(--card-shadow);
+  overflow: hidden;
+
+  /* Let content determine size */
+  display: inline-block;
+  width: fit-content;
 }
 
-.coverage-header {
+.coverage-content {
   display: block;
-  padding: 18px 20px;
-  color: var(--blue);
-  font-weight: 800;
+}
+
+.coverage-content img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
 }
 
 .coverage-content p {
   margin: 0;
-  padding: 0 20px 20px;
+  padding: 20px;
 }
 
-.coverage-box p {
+/* ============================================================
+   Content
+   ============================================================ */
+
+.coverage-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.coverage-content p {
+  margin: 0;
+  padding: 20px;
   color: var(--muted-ink);
+  line-height: 1.6;
+}
+
+/* ============================================================
+   Images
+   ============================================================ */
+
+.coverage-content img {
+  width: 100%;
+  height: 320px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  padding: 10px;
+}
+
+/* Larger map card */
+
+.coverage-box.map-large img {
+  height: 420px;
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+
+@media (max-width: 992px) {
+  .coverage-list {
+    grid-template-columns: 1fr;
+  }
+
+  .coverage-content img {
+    height: 280px;
+  }
+
+  .coverage-box.map-large img {
+    height: 320px;
+  }
+}
+
+@media (max-width: 576px) {
+  .coverage-header {
+    padding: 16px;
+  }
+
+  .coverage-content p {
+    padding: 16px;
+  }
+
+  .coverage-content img {
+    height: 220px;
+  }
+
+  .coverage-box.map-large img {
+    height: 260px;
+  }
 }
