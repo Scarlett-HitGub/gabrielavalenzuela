@@ -7,7 +7,7 @@
   --coverage-img-height: 160px;
   --coverage-img-fit: contain;      /* cover | contain */
   --coverage-img-position: center;
-  --ink: #000000;
+  --ink: #080808;
   --overimage-ink: #ffffff;
   --muted-ink: #1c221c;
   --blue: #317731;
@@ -28,7 +28,7 @@
   --card-shadow: rgba(22, 48, 22, 0.459);
   --plan-start: rgba(45, 145, 45, 0.096);
   --plan-end: rgba(98, 189, 98, 0.26);
-  --plan-image-opacity: 0.45;
+  --plan-image-opacity: 0.85;
   --footer-text: #dff0df;
   --shadow: 0 18px 45px rgba(22, 48, 22, 0.452);
 }

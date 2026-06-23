@@ -5,7 +5,7 @@
 .plan-tabs {
   display: grid;
   grid-template-columns: repeat(3, minmax(180px, 1fr));
-  gap: 18px;
+  gap: 108px;
   max-width: 1120px;
   align-items: stretch;
 }
@@ -56,7 +56,7 @@
 
 .plan-header span {
   max-width: 14ch;
-  font-size: clamp(1.45rem, 2.4vw, 2.15rem);
+  font-size: clamp(1.5rem, 2.4vw, 1.15rem);
   font-weight: 800;
   line-height: 1.05;
 }
@@ -89,6 +89,7 @@
 .plan-content p {
   margin: 0;
   color: var(--muted-ink);
+  
 }
 
 .plan-option a {
