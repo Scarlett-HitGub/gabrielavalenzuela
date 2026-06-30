@@ -43,18 +43,18 @@ Asistencia Psicológica | Ante eventos traumáticos | 4 servicios al año(máx. 
 
 # Planes
 
-__Plan | Contenido | Precio:__
+__Plan | Solicitar info | :__
 ---
 
-Plan Rescate Básico | servicio1, servicio2 | precio1
-
----
-
-Plan Rescate Plus 75 | servicio1, servicio2, servicio3 | precio1
+Plan Rescate Básico | solicitar info | 
 
 ---
 
-Plan Rescate Total | servicio1, servicio2 | precio1
+Plan Rescate Plus 75 | solicitar info | 
+
+---
+
+Plan Rescate Total | Solicitar info |
 
 Cobertura del Servicio de Rescate Móvil
 
@@ -65,7 +65,9 @@ comunas donde el servicio de rescate ofrece cobertura
 __Región | Comuna__
 ---
 Metropolitana | Independencia, Macul, Lar Reina, Cerrillos, La Florida, Vitacura 
+
 Quinta Región | Viña, Reñaca, Concon, valparaíso
+
 Octava Región | Concepción, Talcahuano, Chihuayante, San Pedro
 
 <br>
@@ -81,3 +83,21 @@ __Contacto__
 --- 
 Whatsapp +56 9 8596 6327
 E-mail: contacto@clinicasmoviles.cl
+
+__Google ADS__ 
+
+Acción Principal:
+
+“Solicitar información por WhatsApp”
+
+Acción Secundaria:
+
+“Enviar formulario de solicitud”
+
+Acción Terciaria:
+
+“Llamar ahora”
+
+Google Ads permite medir conversiones como acciones valiosas que una usuaria realiza después de hacer clic en un anuncio, por ejemplo formularios, clics o llamadas.
+---
+
