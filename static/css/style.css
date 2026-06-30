@@ -1,6 +1,6 @@
-/* ============================================================
-   style.static/css — Punto de entrada principal
-   Importa todos los archivos static/css por sección
+﻿/* ============================================================
+   style.css - Punto de entrada principal
+   Importa todos los archivos CSS por seccion
    ============================================================ */
 
 @import url("base.css");
@@ -13,4 +13,3 @@
 @import url("solicitud.css");
 @import url("footer.css");
 @import url("responsive.css");
- 
