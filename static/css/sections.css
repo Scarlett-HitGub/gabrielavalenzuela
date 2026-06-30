@@ -15,6 +15,15 @@
   margin-bottom: 28px;
 }
 
+.section-heading-boxed {
+  padding: 18px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 8px 24px rgba(22, 48, 22, 0.18);
+  backdrop-filter: blur(10px);
+}
+
 .section-heading-overimage {
   max-width: 760px;
   color: var(--overimage-ink);
