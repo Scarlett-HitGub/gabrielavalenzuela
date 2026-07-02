@@ -17,6 +17,25 @@
 
     gtag('config', 'AW-18288277828');
   </script>
+  <!-- Event snippet for Clic de llamada conversion page -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18288277828/Q2jDCJCt4skcEMIyw5BE',
+    'value': 1.0,
+    'currency': 'CLP',
+    'event_callback': callback
+  });
+
+  return false;
+}
+</script>
   <link rel="icon" href="static/assets/Help_Logo.jpg" type="image/x-icon">
   <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer">
@@ -39,6 +58,7 @@
 
   <main>
     <section class="hero" id="inicio">
+      
       <div class="hero-content">
         <p class="eyebrow">Servicio 24/7</p>
         <h1>Traslados y Rescate Médico en Chile con Respuesta Inmediata</h1>
@@ -47,11 +67,20 @@
           para acompañar a pacientes cuando más lo necesitan.
         </p>
       </div>
-      <a class="hero-panel" href="https://wa.me/56985966327" aria-label="Contactar por WhatsApp">
-        <span>Contacto</span>
-        <strong>+56 9 8596 6327</strong>
-        <span class="primary-button"><i class="fa-brands fa-whatsapp"></i> Solicitar información </span>
-      </a>
+      <div class="hero-panel">
+  <span>Contacto</span>
+  <strong>+56 9 8596 6327</strong>
+
+  <a class="primary-button"
+   href="tel:+56985966327"
+   onclick="return gtag_report_conversion('tel:+56985966327');">
+  <i class="fa-solid fa-phone"></i> Llamar ahora
+</a>
+
+  <a class="primary-button" href="https://wa.me/56985966327" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-whatsapp"></i> Solicitar información
+  </a>
+</div>
     </section>
 
    
@@ -249,13 +278,42 @@
   </main>
 
   <footer class="footer" id="contacto">
-    <div>
-      <strong>Contacto</strong>
-      <p>WhatsApp +56 9 8596 6327</p>
-      <p>E-mail: contacto.gabrielahelp@gmail.com</p>
-    </div>
-    <a class="secondary-button" href="https://wa.me/56985966327">Enviar mensaje</a>
-  </footer>
+  <div>
+    <strong>Contacto</strong>
+
+    <p>
+      Teléfono:
+      <a href="tel:+56985966327"
+         onclick="return gtag_report_conversion('tel:+56985966327');">
+        +56 9 8596 6327
+      </a>
+    </p>
+
+    <p>
+      WhatsApp:
+      <a href="https://wa.me/56985966327"
+         target="_blank"
+         rel="noopener noreferrer">
+        +56 9 8596 6327
+      </a>
+    </p>
+
+    <p>E-mail: contacto.gabrielahelp@gmail.com</p>
+  </div>
+
+  <a class="secondary-button"
+     href="tel:+56985966327"
+     onclick="return gtag_report_conversion('tel:+56985966327');">
+    Llamar ahora
+  </a>
+
+  <a class="secondary-button"
+     href="https://wa.me/56985966327"
+     target="_blank"
+     rel="noopener noreferrer">
+    Enviar mensaje
+  </a>
+</footer>
 
   <a class="whatsapp-float" href="https://wa.me/56985966327" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp para solicitar información">
     <span class="whatsapp-float__icon" aria-hidden="true">
