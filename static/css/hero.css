@@ -73,6 +73,10 @@
     filter 160ms ease;
 }
 
+.hero-panel .call-now-button {
+  display: none;
+}
+
 .hero-panel p {
   color: var(--on-dark-soft);
 }

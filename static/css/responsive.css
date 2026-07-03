@@ -31,4 +31,8 @@
   .hero {
     min-height: auto;
   }
+
+  .hero-panel .call-now-button {
+    display: inline-flex;
+  }
 }
