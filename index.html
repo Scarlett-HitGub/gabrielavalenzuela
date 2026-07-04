@@ -10,13 +10,16 @@
   <title>Servicio de Rescate Médico </title>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18288277828"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'AW-18288277828');
-  </script>
+  gtag('config', 'AW-18288277828');
+  gtag('config', 'AW-18288277828/DdGXCNu-r8ocEMTyw5BE', {
+    'phone_conversion_number': '+56 9 8596 6327'
+  });
+</script>
   <!-- Event snippet for Clic de llamada conversion page -->
 <script>
 function gtag_report_conversion(url) {
@@ -77,9 +80,11 @@ function gtag_report_conversion(url) {
   <i class="fa-solid fa-phone"></i> Llamar ahora
 </a>
 
-  <a class="primary-button" href="https://wa.me/56985966327" target="_blank" rel="noopener noreferrer">
-    <i class="fa-brands fa-whatsapp"></i> Solicitar información
-  </a>
+  <a class="primary-button"
+   href="https://wa.me/56985966327"
+   onclick="return gtag_report_contact_conversion('https://wa.me/56985966327');">
+  <i class="fa-brands fa-whatsapp"></i> Solicitar información
+</a>
 </div>
     </section>
 
@@ -292,10 +297,9 @@ function gtag_report_conversion(url) {
     <p>
       WhatsApp:
       <a href="https://wa.me/56985966327"
-         target="_blank"
-         rel="noopener noreferrer">
-        +56 9 8596 6327
-      </a>
+   onclick="return gtag_report_contact_conversion('https://wa.me/56985966327');">
+  +56 9 8596 6327
+    </a>
     </p>
 
     <p>E-mail: contacto.gabrielahelp@gmail.com</p>
@@ -309,13 +313,19 @@ function gtag_report_conversion(url) {
 
   <a class="secondary-button"
      href="https://wa.me/56985966327"
+     onclick="return gtag_report_contact_conversion('https://wa.me/56985966327');"
      target="_blank"
      rel="noopener noreferrer">
     Enviar mensaje
   </a>
 </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/56985966327" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp para solicitar información">
+  <a class="whatsapp-float"
+   href="https://wa.me/56985966327"
+   onclick="return gtag_report_contact_conversion('https://wa.me/56985966327');"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Abrir WhatsApp para solicitar información">
     <span class="whatsapp-float__icon" aria-hidden="true">
       <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
     </span>
