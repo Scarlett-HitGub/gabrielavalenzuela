@@ -81,7 +81,7 @@ Para situaciones de salud menor, puede obtener la atención de un médico desde 
 
 __Contacto__
 --- 
-Whatsapp +56 9 8596 6327
+Whatsapp +56 9 5738 3125
 E-mail: contacto@clinicasmoviles.cl
 
 __Google ADS__ 
