@@ -74,7 +74,7 @@
 }
 
 .hero-panel .call-now-button {
-  display: none;
+  display: inline-flex;
 }
 
 .hero-panel p {
