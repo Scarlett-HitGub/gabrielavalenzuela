@@ -6,13 +6,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  padding: 30px clamp(20px, 5vw, 72px);
+  gap: 18px;
+  padding: 40px clamp(20px, 5vw, 72px);
   color: var(--on-dark);
   background: var(--ink);
 }
 
 .footer p {
+  font-size: 24px;
   margin-bottom: 0;
   color: var(--footer-text);
 }
